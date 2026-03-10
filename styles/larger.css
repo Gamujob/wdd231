@@ -1,0 +1,65 @@
+@media screen and (min-width:510px) {
+  .head {
+    display: flex;
+    flex-direction: row;
+  }
+ 
+  #menu {
+    display: none;
+  }
+
+  .navigation ul{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .navigation li {
+    text-align: center;
+  }
+  
+  .navigation a{
+    display: block;
+    background-color: #000;
+    color: #fff;
+    font-size: 25px;
+  }
+
+  .aboutMe {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background-color: #fff;
+  }
+
+  .aboutMe h2{
+    margin-top: 0;
+  }
+
+  section {
+    border: 1px solid #111;
+    background-color: #ddd;
+    margin: 5px;
+  }
+
+  .profile {
+    width: 300px;
+  } 
+
+  .webCourses {
+    background-color: #fff;
+    border: none;
+  }
+
+  .courses {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .courses p{
+    width: 86%;
+  }
+
+  .courseBranch {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+}

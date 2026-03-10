@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Home Page</title>
+  <meta name="description" content="This is the homepage for Job Gamutambuli of the course WDD231 Web Frontend Development I">
+  <meta name="author" content="Job Gamutambuli">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/course.js" defer></script>
+  <script src="scripts/date.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav class="navigation">
+      <div class="head">
+        <img src="images/index-icon.svg" alt="Icon for homepage">
+        <span>Job Gamutambuli</span>
+        <button id="menu" class="container"></button>
+      </div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Chamber</a></li>
+        <li><a href="#">Final</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Home</h1>
+    <div class="aboutMe">
+      <section class="about">
+        <h2>About Me</h2>
+        <p>Hello there! My name is Job Gamutambuli from Uganda in Africa. I'm a student at BYU- Idaho and I like making new friends and travelling to new places. I'm now doing a course WDD231 - Web Fronted Development I. I like Uganda my country because of it's beauty. And my favorite color is blue which reflects the beauty in my eyes.</p>
+      </section>
+      <section class="profile">
+        <h2>Student Photo</h2>
+        <img src="images/profile.jpg" alt="Student Profile Photo">
+      </section>
+    </div>
+    <section class="webCourses">
+      <h2>Web Certificate Courses</h2>
+      <p id="credits"></p>
+      <div class="courses">
+        <button id="all">ALL</button>
+        <button id="cse">CSE</button>
+        <button id="wdd">WDD</button>
+      </div>
+      <div class="courseBranch">
+        <p id="courseList"></p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <nav class="socialmedia">
+      <li>
+        <a href="https://www.linkedin.com/in/gamu-job-a31574370">
+          <img src="images/linkedin.png" alt="LinkedIn Account">
+        </a>
+      </li>
+      <li>
+        <a href="https://github.com/Gamujob/wdd231">
+          <img src="images/github.png" alt="Github Repository">
+        </a>
+      </li>
+      <li>
+        <a href="https://www.facebook.com/">
+          <img src="images/facebook.png" alt="Facebook">
+        </a>
+      </li>
+    </nav>
+    <div class="copyright">
+      <span id="currentyear"></span>
+      <p id="lastModified"></p>
+    </div>
+  </footer>
+</body>
+</html>
