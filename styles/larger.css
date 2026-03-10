@@ -58,7 +58,7 @@
     width: 86%;
   }
 
-  .courseBranch {
+  .courseBranch p{
     display: grid;
     grid-template-columns: auto auto auto;
   }

@@ -85,8 +85,10 @@ function createCourseCard(filteredCourses) {
     document.querySelector('#courseList').innerHTML = "";
     filteredCourses.forEach(course => {
         const div = document.createElement('div');
+        
         const createCourse = document.createElement('p');
         createCourse.textContent = `${course.subject} ${course.number}`;
+
         div.append(createCourse);
         courseList.appendChild(div);
     });
