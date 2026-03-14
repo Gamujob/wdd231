@@ -1,0 +1,28 @@
+{
+  "family_name": "Gamu",
+  "move_in_date": "2026-03-13",
+  "number_of_people": 4,
+  "visited_by_bishopric": true,
+  "family_members": [
+    {
+      "name": "Monti Gamu",
+      "gender": "Male",
+      "birthdate": "2001-12-04"
+    },
+    {
+      "name": "Job Gamu",
+      "gender": "Male",
+      "birthdate": "2003-11-13"
+    },
+    {
+      "name": "swabra Gamu",
+      "gender": "Female",
+      "birthdate": "2005-05-02"
+    },
+    {
+      "name": "Rahma Gamu",
+      "gender": "Female",
+      "birthdate": "2007-07-21"
+    }
+  ]
+}
