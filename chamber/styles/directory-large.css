@@ -64,10 +64,16 @@
     width: 70px;
     flex-wrap: wrap;
   }
-
+  
   #card {
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+
+  #card section{
+    text-align: center;
     justify-content: center;
   }
 
@@ -75,7 +81,10 @@
     font-size: 23px;
   }
 
+
   #card p {
+    margin: 10px auto;
+    text-align: center;
     width: 200px;
     font-size: 15px;
   }
