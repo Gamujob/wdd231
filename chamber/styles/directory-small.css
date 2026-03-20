@@ -1,0 +1,165 @@
+header {
+  display: grid;
+  grid-template-columns: 1fr;
+  border: 1px solid #000;
+  background-color: #a1dce8;
+  color: #000;
+}
+
+.navigation ul{
+  margin: 0;
+  padding-left: 0;
+}
+
+.navigation li {
+  list-style-type: none;
+}
+
+.navigation a {
+  margin-left: 10px;
+  display: none;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #000;
+}
+
+.navigation li:hover{
+  background-color:#ff0;
+  color: #1e00ff;
+}
+
+.open a{
+  display: block;
+}
+
+#menu::before {
+  content: "≡";
+}
+
+#menu.open::before {
+  content: "❌";
+}
+
+.head1 {
+  display: flex;
+  place-items: center;
+}
+
+.head1 h1 {
+  font-size: 20px;
+}
+
+.head1 img {
+  border: 1px solid #999;
+}
+
+.head2 {
+  position: absolute;
+  display: flex;
+  place-items: center;
+  /* margin-right: 10px; */
+  justify-content: end;
+  right: 10px;
+  top: 48px;
+}
+
+.head2 button {
+  width: 30px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.head2 img{
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+}
+
+footer {
+  background-color: #a1dce8;
+}
+
+.address {
+  margin: 10px;
+  width: 70%;
+}
+
+.address p{
+  font-size: 20px;
+}
+
+.socialmedia {
+  text-align: center;
+}
+
+.socialmedia ul{
+  display: flex;
+  justify-content: center;
+  place-items: center;
+  height: 100%;
+}
+
+.socialmedia li{
+  list-style-type: none;
+}
+
+.socialmedia img {
+  width: 100px;
+  margin: 10px;
+}
+
+.myCourse {
+  margin: 10px;
+}
+
+.myCourse p, span{
+  font-size: 20px;
+}
+
+#card {
+  text-align: center;
+}
+
+#card h2{
+  margin-top: 0;
+  background-color: #80bcea;
+  color: #000;
+  padding: 5px;
+}
+
+#card section{
+  margin: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 10px #555;
+  background-color: #eee;
+}
+
+#view {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 10px;
+}
+
+#grid, #list {
+  font-size: 30px;
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+  box-shadow: 5px 5px 10px #000;
+}
+
+#listCard div{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ddd;
+  margin: 5px;
+  text-align: center;
+}
+
+#listCard h2, #listCard p{
+  font-size: 15px;
+  text-align: center;
+  height: 100%;
+  margin: 10px;
+}

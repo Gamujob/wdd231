@@ -1,0 +1,85 @@
+{
+  "members": [
+    {
+      "image": "images/bidco.png",
+      "name": "Bidco Uganda Limited",
+      "address": "Plot No-152/M Masese Industrial Area",
+      "location": "Jinja, Uganda",
+      "phone": "+256-43-4124-200",
+      "url": "https://www.bul.co.ug/",
+      "membershipLevel": "silver"
+    },
+    {
+      "image": "images/tembo.png",
+      "name": "Tembo Steels Uganda",
+      "address": "Plot No-13/B Mabua Road, Kololo",
+      "location": "Kampala, Uganda",
+      "phone": "0-800-318-318",
+      "url": "https://www.tembosteels.co.ug/",
+      "membershipLevel": "gold"
+    },
+    {
+      "image": "images/tororo.png",
+      "name": "Tororo Cement Limited",
+      "address": "KP Plaza,6th Street,Industrial Area",
+      "location": "Tororo, Uganda",
+      "phone": "+256 352-512500",
+      "url": "https://www.tororocement.com",
+      "membershipLevel": "gold"
+    },
+    {
+      "image": "images/cocacola.png",
+      "name": "CocaCola Beverages A",
+      "address": "Plot 964 Kyaggwe, Namanve Industrial Areas",
+      "location": "Kampala, Uganda",
+      "phone": "800-100-255",
+      "url": "https://www.ccbagroup.com/",
+      "membershipLevel": "gold"
+    },
+    {
+      "image": "images/tata-motors.png",
+      "name": "Tata Motors Limited",
+      "address": "24 Bombay House, Homi Mody Street",
+      "location": "Mumbai - 400 001",
+      "phone": "+91-22-6665-8282",
+      "url": "https://www.tatamotors.com/",
+      "membershipLevel": "silver"
+    },
+    {
+      "image": "images/unilever.png",
+      "name": "Unilever PLC",
+      "address": "100 victoria Embankment, London",
+      "location": "United Kingdom",
+      "phone": "+44 (0)800 01 01 09",
+      "url": "https://www.unilever.co.uk/",
+      "membershipLevel": "member"
+    },
+    {
+      "image": "images/nestle.png",
+      "name": "Nestle Switzerland",
+      "address": "1800 Vevey, Avenue Nestle 55",
+      "location": "Switzerland",
+      "phone": "+41 21 924 1111 ",
+      "url": "https://www.nestle.com/",
+      "membershipLevel": "gold"
+    },
+    {
+      "image": "images/renault.png",
+      "name": "Renult Truck Cooperate",
+      "address": "Saint-Priest, Auvergne",
+      "location": "Rhone-Alpes, France",
+      "phone": "+33 4 69 09 60 00",
+      "url": "https://www.renault-trucks.com/",
+      "membershipLevel": "gold"
+    },
+    {
+      "image": "images/genuineit.png",
+      "name": "GenuineIT LLC",
+      "address": "9894 Bissonnet St, Suite 827, Houson",
+      "location": "United State",
+      "phone": "+91 713-230-8558",
+      "url": "https://www.genuineitllc.com/",
+      "membershipLevel": "silver"
+    }
+  ]
+}

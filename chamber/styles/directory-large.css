@@ -1,0 +1,83 @@
+@media screen and (min-width:510px) {
+  header {
+    display: flex;
+    width: 100%;
+    place-items: center;
+  }
+  
+  .navigation {
+    margin-right: 50px;
+    width: 60%;
+    /* display: block; */
+  }
+
+  .navigation ul{
+    justify-content: end;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .navigation a {
+    margin: .5rem;
+    text-decoration: none;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .head2 {
+    max-width: 50px;
+    margin-right: 1px;
+    width: 100%;
+  }
+
+  .head2 img {
+    margin-right: 10px;
+  }
+
+  footer {
+    display: flex;
+    place-items: center;
+  }
+
+  .address {
+    max-width: 30%;
+    flex-wrap: wrap;
+  }
+
+  .socialmedia{
+    width: 60%;
+  }
+
+  .socialmedia ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .socialmedia li {
+    width: 100px;
+    margin: 2px;
+  }
+  
+  .socialmedia img{
+    width: 70px;
+    flex-wrap: wrap;
+  }
+
+  #card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  #card h2 {
+    font-size: 23px;
+  }
+
+  #card p {
+    width: 200px;
+    font-size: 15px;
+  }
+
+}
