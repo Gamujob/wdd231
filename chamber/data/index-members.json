@@ -1,0 +1,31 @@
+{
+  "members": [
+    {
+      "image": "images/bidco.png",
+      "name": "Bidco Uganda Limited",
+      "address": "Plot No-152/M Masese Industrial Area",
+      "location": "Jinja, Uganda",
+      "phone": "+256-43-4124-200",
+      "url": "https://www.bul.co.ug/",
+      "membershipLevel": "silver"
+    },
+    {
+      "image": "images/tembo.png",
+      "name": "Tembo Steels Uganda",
+      "address": "Plot No-13/B Mabua Road, Kololo",
+      "location": "Kampala, Uganda",
+      "phone": "0-800-318-318",
+      "url": "https://www.tembosteels.co.ug/",
+      "membershipLevel": "gold"
+    },
+    {
+      "image": "images/tororo.png",
+      "name": "Tororo Cement Limited",
+      "address": "KP Plaza,6th Street,Industrial Area",
+      "location": "Tororo, Uganda",
+      "phone": "+256 352-512500",
+      "url": "https://www.tororocement.com",
+      "membershipLevel": "gold"
+    }
+  ]
+}

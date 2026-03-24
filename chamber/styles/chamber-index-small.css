@@ -75,6 +75,34 @@ header {
   height: 25px;
 }
 
+.hero{
+  position: relative;
+  width: 100%;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.ticket {
+  background-color: yellow;
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+}
+
+.homebody {
+  border: 1px solid #000;
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+}
+
 footer {
   background-color: #a1dce8;
 }
@@ -120,7 +148,7 @@ footer {
   text-align: center;
 }
 
-#card h2{
+#card h3{
   font-family: "Montserrat Alternates", sans-serif;
   margin-top: 0;
   background-color: #80bcea;

@@ -28,7 +28,6 @@
   }
 
   .head2 {
-    /* top: 41px; */
     max-width: 50px;
     margin-right: 1px;
     width: 100%;
@@ -36,6 +35,22 @@
 
   .head2 img {
     margin-right: 10px;
+  }
+
+  .home {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+  }
+
+  .home h2 {
+    grid-column: span 3;
+    margin-left: 10px;
+    font-size: 2rem;
+  }
+
+  .homebody {
+    width: 96%;
   }
 
   footer {
