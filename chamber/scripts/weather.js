@@ -37,10 +37,18 @@ async function apiFetch() {
 function displayResults(data) {
     myTown.innerHTML = data.name
     myDescription.innerHTML = data.weather[0].description
-    myTemperature.innerHTML = `${data.main.temp}&deg;F`
+    myTemperature.innerHTML = `${data.main.temp}&deg;F`;
+    // weather Icon
     const iconsrc = `https://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`
-    myGraphic.setAttribute('src', iconsrc)
-    myGraphic.setAttribute('alt', data.weather[0].description)
+    let div = document.createElement('div');
+    let weatherIcon = document.createElement('img');
+
+    weatherIcon.setAttribute('src', iconsrc)
+    weatherIcon.setAttribute('alt', data.weather[0].description)
+    div.appendChild(weatherIcon)
+    myGraphic.append(div)
+    // myGraphic.setAttribute('src', iconsrc)
+    // myGraphic.setAttribute('alt', data.weather[0].description)
     highTemp.innerHTML = `High: ${data.main.temp_max}&deg;F`
     lowTemp.innerHTML = `Low: ${data.main.temp_min}&deg;F`
     humidity.innerHTML = `Humidity: ${data.main.humidity}%`
