@@ -96,12 +96,44 @@ header {
   flex-direction: column;
 }
 
-.homebody {
+.currentWeather {
+  display: grid;
+  grid-template-columns:auto auto;
+  background-color: #f6f0da;
   border: 1px solid #000;
+  border-radius: 10px;
+  width: 97%;
+  margin: 10px;
+  /* margin-right: 10px; */
+  text-align: start;
+}
+
+.currentWeather h3 {
+  grid-column: span 3;
+  background-color: #000;
+  color: #fff;
+  margin-top: 0;
+  border-radius: 10px 10px 0 0;
+  padding: 5px;
+}
+
+.homebody {
+  background-color: #f6f0da;
+  border: 1px solid #000;
+  border-radius: 10px;
   width: 100%;
   margin: 10px;
   text-align: center;
 }
+
+.homebody h3 {
+  background-color: #000;
+  color: #fff;
+  margin-top: 0;
+  border-radius: 10px 10px 0 0;
+  padding: 5px;
+}
+
 
 footer {
   background-color: #a1dce8;

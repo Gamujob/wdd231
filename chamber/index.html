@@ -16,6 +16,8 @@
   <link rel="stylesheet" href="styles/chamber-index-large.css">
   <link rel="stylesheet" href="styles/normalize.css">
   <script src="scripts/chamber-index.js" defer></script>
+  <script src="scripts/weather.js" defer></script>
+  <script src="scripts/forecast-weather.js" defer></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -56,11 +58,28 @@
       <div class="homebody">
         <h3>Events</h3>
       </div>
-      <div class="homebody">
+      <div class="currentWeather">
         <h3>Currrent Weather</h3>
+        <div>
+          <img id="graphic" src="" alt="">
+        </div>
+        <div>
+          <h4 id="town"></h4>
+          <p id="description"></p>
+          <p id="temperature"></p>
+          <p id="highTemp"></p>
+          <p id="lowTemp"></p>
+          <p id="humidity"></p>
+          <p id="sunrise"></p>
+          <p id="sunset"></p>
+        </div>
       </div>
       <div class="homebody">
         <h3>Weather Forecast</h3>
+        <h4 id="city"></h4>
+        <p id="weatherToday"></p>
+        <p id="tomorrow"></p>
+        <p id="nextDay"></p>
       </div>
     </div>
 
