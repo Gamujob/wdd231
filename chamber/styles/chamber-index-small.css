@@ -46,6 +46,8 @@ header {
 }
 
 .head1 h1 {
+  width: 60%;
+  flex-wrap: wrap;
   font-size: 20px;
 }
 
@@ -89,11 +91,19 @@ header {
   position: absolute;
   bottom: 20px;
   right: 30px;
+  width: 30%;
+  border: 1px solid #000;
+}
+
+.ticket p {
+  margin-left: 5px;
+  font-size: 10px;
 }
 
 .home {
   display: flex;
   flex-direction: column;
+  margin-right: 5px;
 }
 
 .currentWeather {
@@ -115,15 +125,20 @@ header {
   margin-top: 0;
   border-radius: 10px 10px 0 0;
   padding: 5px;
+  text-align: center;
 }
 
 .homebody {
   background-color: #f6f0da;
   border: 1px solid #000;
   border-radius: 10px;
-  width: 100%;
+  width: 97%;
   margin: 10px;
-  text-align: center;
+  text-align: left;
+}
+
+.homebody p {
+  margin-left: 20px;
 }
 
 .homebody h3 {
@@ -132,6 +147,7 @@ header {
   margin-top: 0;
   border-radius: 10px 10px 0 0;
   padding: 5px;
+  text-align: center;
 }
 
 
