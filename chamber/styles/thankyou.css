@@ -1,0 +1,15 @@
+main {
+  border: 1px solid #000;
+  background-color: #ddd;
+}
+
+h1 {
+  margin-top: 0;
+  background-color: aqua;
+  text-align: center;
+}
+
+.note p{
+  margin-left: 10px;
+  font-size: 20px;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chamber Directory Page</title>
+  <meta name="description" content="This is the assignment for the week two called Chamber Directory Page for the course wdd231 Web Frontend Development I">
+  <meta name="author" content="Job Gamutambuli">
+  <meta property="og:title" content="Facebook">
+  <meta property="og:description" content="Connect with friends and family members all over the world, and also join different communities accoding to your desires.">
+  <meta property="og:image" content="https://static.vecteezy.com/system/resources/previews/018/930/698/large_2x/facebook-logo-facebook-icon-transparent-free-png.png">
+  <meta property="og:image:alt" content="Facebook">
+  <meta property="og:url" content="https://www.facebook.com">
+  <link rel="icon" href="chamber-favicon.ico">
+  <link rel="stylesheet" href="styles/directory-small.css">
+  <link rel="stylesheet" href="styles/directory-large.css">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <script src="scripts/join-form.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="head1">
+      <img src="images/directory-icon.svg" alt="Directory Icon">
+      <h1>Gamu Chamber of Commerce</h1>
+    </div>
+    <nav class="navigation">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="directory.html">Directory</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="#">Discover</a></li>
+      </ul>
+    </nav>
+    <div class="head2">
+      <img src="images/half-shadow.png" alt="Nav half Image" id="shadow">
+      <button id="menu"></button>
+    </div>
+  </header>
+  <main>
+    <form action="thankyou.html" method="get">
+      <div class="memberInfo">
+        <h1>Membership Application Form</h1>
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" id="firstname" title="Please enter your first name" autocomplete="given-name" required>
+
+        <label for="lastname">Last Name</label>
+        <input type="text" name="lastname" id="lastname" title="Please enter you last name" autocomplete="family-name" required>
+
+        <label for="orgtitle">Title</label>
+        <input type="text" name="orgtitle" id="orgtitle" title="Please enter your organisation title (min 7 characters, letters, hyphens, and spaces only)" autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}">
+
+        <label for="useremail">Email</label>
+        <input type="email" name="useremail" id="useremail" title="Please enter your email address" autocomplete="email" placeholder="someone@gmail.com" required>
+
+        <label for="phone">Cell Phone</label>
+        <input type="tel" name="phone" id="phone" title="Please enter your phone number" autocomplete="tel" required>
+
+        <label for="memberlevel">Membership Level</label>
+        <select name="memberlevel" id="memberlevel">
+          <option value="" disabled selected>-- Please select a level --</option>
+          <option value="NP">Non Profit Membership Level</option>
+          <option value="bronze">Bronze Membership Level</option>
+          <option value="silver">Silver Membership Level</option>
+          <option value="gold">Gold Membership Level</option>
+        </select>
+
+        <label for="organisation">Organisation</label>
+        <textarea name="organisation" id="organisation" title="Please enter your business/organisation description" rows="2"></textarea>
+
+        <input type="hidden" name="form_timestamp" id="loadtimestamp">
+
+        <div class="submitButton">
+          <input type="submit" value="Apply For Membership" id="submission">
+        </div>
+
+      </div>
+      <div class="membership">
+        <h1>Membership Level</h1>
+        <div class="memberCard">
+          <p>Non Profit Membership Level</p>
+          <button id="openButton1">Learn More</button>
+        </div>
+        <div class="memberCard">
+          <p>Bronze Membership Level</p>
+          <button id="openButton2">Learn More</button>
+        </div>
+        <div class="memberCard">
+          <p>Silver Membership Level</p>
+          <button id="openButton3">Learn More</button>
+        </div>
+        <div class="memberCard">
+          <p>Gold Membership Level</p>
+          <button id="openButton4">Learn More</button>
+        </div>
+        <dialog id="myModal">
+          <p id="myModalText"></p>
+          <button id="closeModal">Close</button>
+        </dialog>
+      </div>
+    </form>
+  </main>
+  <footer>
+    <div class="address">
+      <h2>Gamu Chamber of Commerce</h2>
+      <p>P.O BOX 139</p>
+      <p>Kaliro, Uganda</p>
+      <p>info@gamuchamber.org</p>
+      <p>(256)700519818</p>
+    </div>
+    <nav class="socialmedia">
+      <ul>
+        <li>
+          <a href="https://www.youtube.com">
+            <img src="images/youtube.png" alt="YouTube Icon">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.x.com">
+            <img src="images/twitter-logo.png" alt="Twitter Icon">
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/gamu-job-a31574370">
+            <img src="images/linkedin.png" alt="LinkedIn Account">
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div class="myCourse"> 
+      <p id="course"></p>
+      <p id="name"></p>
+      <span id="currentyear"></span>
+      <p id="lastModified"></p>
+    </div>
+  </footer>
+</body>
+</html>
