@@ -50,7 +50,7 @@
         <input type="text" name="lastname" id="lastname" title="Please enter you last name" autocomplete="family-name" required>
 
         <label for="orgtitle">Title</label>
-        <input type="text" name="orgtitle" id="orgtitle" title="Please enter your organisation title (min 7 characters, letters, hyphens, and spaces only)" autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}">
+        <input type="text" name="orgtitle" id="orgtitle" title="Please enter your organisation title (min 7 characters, letters, hyphens, and spaces only)" pattern="[A-Za-z\s\-]{7,}">
 
         <label for="useremail">Email</label>
         <input type="email" name="useremail" id="useremail" title="Please enter your email address" autocomplete="email" placeholder="someone@gmail.com" required>
@@ -68,7 +68,7 @@
         </select>
 
         <label for="organization">Organization</label>
-        <textarea name="organization" id="organization" title="Please enter your business/organization description" autocomplete="organization" rows="2"></textarea>
+        <textarea name="organization" id="organization" autocomplete="organization" title="Please enter your business/organization description" rows="2"></textarea>
 
         <input type="hidden" name="form_timestamp" id="loadtimestamp">
 
