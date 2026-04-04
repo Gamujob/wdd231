@@ -218,8 +218,9 @@ select, input, textarea {
   justify-content: center;
 }
 
-.membership h1 {
-  margin: 20px auto 5px;
+.membership h3 {
+  font-size: 25px;
+  margin: 50px auto 5px;
 }
 
 .memberCard {
