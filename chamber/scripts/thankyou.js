@@ -6,7 +6,7 @@ const firstName = params.get('firstname');
 const lastName = params.get('lastname');
 const email = params.get('useremail');
 const phone = params.get('phone');
-const organization = params.get('organisation');
+const organization = params.get('organization');
 const timestamp = params.get('form_timestamp');
 
 document.getElementById('results').innerHTML = `
