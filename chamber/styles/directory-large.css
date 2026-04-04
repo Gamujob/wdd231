@@ -94,10 +94,19 @@
     width: 200px;
     font-size: 15px;
   }
-  
+
   /* FORM */
   form {
     display: grid;
     grid-template-columns: auto auto;
+  }
+
+  .memberInfo {
+    width: 90%;
+  }
+
+  .memberCard {
+    width: 87%;
+    margin-right: 10px;
   }
 }
