@@ -6,7 +6,7 @@ const firstName = params.get('firstname');
 const lastName = params.get('lastname');
 const email = params.get('useremail');
 const phone = params.get('phone');
-const organisation = params.get('organisation');
+const organization = params.get('organisation');
 const timestamp = params.get('form_timestamp');
 
 document.getElementById('results').innerHTML = `
@@ -14,6 +14,6 @@ document.getElementById('results').innerHTML = `
 <p><strong>Last Name: </strong> ${lastName}</p>
 <p><strong>Email: </strong> ${email}</p>
 <p><strong>Phone: </strong> ${phone}</p>
-<p><strong>Organisation: </strong> ${organisation}</p>
+<p><strong>Organization: </strong> ${organization}</p>
 <p><strong>Submitted: </strong> ${timestamp}</p>
 `;
