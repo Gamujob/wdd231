@@ -42,21 +42,24 @@
   <main>
     <form action="thankyou.html" method="get">
       <div class="memberInfo">
-        <h2>Membership Application Form</h2>
+        <h1>Membership Application Form</h1>
         <label for="firstname">First Name</label>
         <input type="text" name="firstname" id="firstname" title="Please enter your first name" autocomplete="given-name" required>
 
         <label for="lastname">Last Name</label>
         <input type="text" name="lastname" id="lastname" title="Please enter you last name" autocomplete="family-name" required>
 
-        <label for="orgtitle">Title</label>
-        <input type="text" name="orgtitle" id="orgtitle" title="Please enter your organisation title (min 7 characters, letters, hyphens, and spaces only)" pattern="[A-Za-z\s\-]{7,}">
+        <label for="orgtitle">Organization Title</label>
+        <input type="text" name="orgtitle" id="orgtitle" title="Please enter your organisation title (min 7 characters, letters, hyphens, and spaces only)" autocomplete="organization-title" pattern="[A-Za-z\s\-]{7,}">
 
         <label for="useremail">Email</label>
         <input type="email" name="useremail" id="useremail" title="Please enter your email address" autocomplete="email" placeholder="someone@gmail.com" required>
 
         <label for="phone">Cell Phone</label>
         <input type="tel" name="phone" id="phone" title="Please enter your phone number" autocomplete="tel" required>
+
+        <label for="organization">Organization Name</label>
+        <input type="text" name="organization" id="organization" title="Please enter your business/organization's name" autocomplete="organization" required>
 
         <label for="memberlevel">Membership Level</label>
         <select name="memberlevel" id="memberlevel">
@@ -67,18 +70,18 @@
           <option value="gold">Gold Membership Level</option>
         </select>
 
-        <label for="organization">Organization</label>
-        <textarea name="organization" id="organization" autocomplete="organization" title="Please enter your business/organization description" rows="2"></textarea>
+        <label for="orgDescription">Organization Description</label>
+        <textarea name="orgDescription" id="orgDescription" title="Please enter your business/organization description" rows="2"></textarea>
 
         <input type="hidden" name="form_timestamp" id="loadtimestamp">
 
         <div class="submitButton">
           <input type="submit" value="Apply For Membership" id="submission">
         </div>
-      </div>
 
+      </div>
       <div class="membership">
-        <h3>Membership Level </h3>
+        <h2>Membership Level</h2>
         <div class="memberCard">
           <p>Non Profit Membership Level</p>
           <button id="openButton1">Learn More</button>
