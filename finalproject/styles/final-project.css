@@ -1,0 +1,39 @@
+header {
+  display: block;
+  background-color: steelblue;
+  color: black;
+}
+
+h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+  text-align: center;
+}
+
+main {
+  display: block;
+  background-color: yellow;
+  width: 100%;
+}
+
+h2, strong {
+  font-family: "Montserrat Alternates", sans-serif;
+  margin: 10px;
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: Google Sans;
+  margin: 10px;
+}
+
+.wireframe {
+  width: 100%;
+}
+
+
+footer{
+  padding: 10px;
+  text-align: center;
+  background-color: steelblue;
+  color: black;
+}
