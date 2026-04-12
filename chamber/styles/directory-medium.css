@@ -1,4 +1,4 @@
-@media screen and (min-width:500px) {
+@media screen and (min-width:641px) {
   header {
     display: flex;
     width: 100%;
@@ -40,6 +40,21 @@
 
   .head2 img {
     margin-right: 10px;
+  }
+
+  #cardplaces div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    grid-template-areas: 
+    "photo name"
+    "photo address"
+    "photo description";
+  }
+
+  #cardplaces img:hover {
+    box-shadow: 10px 10px 10px #ff0;
+    opacity: .7;
   }
 
   footer {

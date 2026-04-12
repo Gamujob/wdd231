@@ -1,0 +1,6 @@
+@media only screen and (min-width:1024px) {
+  #cardplaces {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

@@ -289,3 +289,66 @@ select, input, textarea {
 }
 
 /* ---------FORM DESIGN-------- */
+
+/* Designing the place card */
+#visitMessage {
+  margin: 0 auto;
+  background-color: yellow;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+  width: 94%;
+  border: 1px solid #000;
+}
+
+#cardplaces{
+  display: grid;
+}
+
+#cardplaces div {
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #ddd;
+  border: 1px solid #333;
+  margin: 10px;
+  width: 95%;
+  border-radius: 10px;
+  overflow: hidden;
+
+  grid-template-areas: 
+  "name"
+  "photo"
+  "address"
+  "description";
+}
+
+#cardplaces h2 {
+  text-align: center;
+
+  grid-area: name;
+}
+
+#cardplaces img {
+  width: 300px;
+  box-shadow: 5px 5px 10px #222;
+  margin: 0 auto;
+
+  grid-area: photo;
+}
+
+#cardplaces address {
+  text-align: left;
+  margin: 5px 20px;
+
+  grid-area: address;
+}
+
+#cardplaces p {
+  text-align: left;
+  margin:5px 20px;
+  width: 94%;
+
+  grid-area: description;
+}
+
+/* Designing the place card */
