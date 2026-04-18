@@ -195,11 +195,23 @@ label {
   box-shadow: 10px 5px #555;
 }
 
+
+/* PRODUCTS DESIGN */
+#product {
+  background-color: #ff0;
+  border: 1px solid #999;
+  text-align: center;
+}
+
 #localStore {
   background-color: #0ff;
   padding: 10px;
   text-align: center;
   font-size: 25px;
+}
+
+#vehicleCard {
+  display: grid;
 }
 
 #vehicleCard div{
