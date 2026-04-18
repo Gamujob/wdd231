@@ -1,0 +1,207 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  display: block;
+  background-color: steelblue;
+  color: black;
+}
+
+
+
+#menu::before {
+  content: "≡";
+}
+
+#menu.open::before{
+  content: "❌";
+}
+
+.navigation.open a{
+  display: block;
+}
+
+
+.navigation ul{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.navigation li {
+  list-style-type: none;
+}
+.navigation a {
+  display: none;
+  text-decoration: none;
+  width: 94%;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  border: 2px solid #000;
+}
+
+.navigation a:hover {
+  background-color: #ff0;
+  color: #000;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.hero #largeimg {
+  width: 100%;
+
+}
+
+.hero-small {
+  border: 1px solid #000;
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: #ff0;
+}
+
+.hero-small img{
+  width: 100%;
+}
+
+.subHero1 {
+  position: relative;
+  display: grid;
+  border: 1px solid #000;
+}
+
+.subHero1 img { 
+  width: 100%;
+}
+
+.subHero1 p {
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+}
+
+.subHero2 {
+  text-align: center;
+  border: 1px solid #000;
+  background-color: #ff0;
+}
+
+.subHero2 h2 {
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+  border: 2px solid #000;
+}
+
+
+.heading {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  place-items: center;
+}
+
+.heading button {
+  right: 2px;
+  position: absolute;
+  width: 35px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+  text-align: center;
+}
+
+main {
+  display: block;
+  width: 100%;
+}
+
+h2, strong {
+  font-family: "Montserrat Alternates", sans-serif;
+  margin: 10px;
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: Google Sans;
+  margin: 10px;
+}
+
+.wireframe {
+  width: 100%;
+}
+
+
+
+
+footer{
+  padding: 10px;
+  text-align: center;
+  background-color: steelblue;
+  color: black;
+}
+
+/* MORE OF ABOUT US PAGE */
+.about {
+  text-align: center;
+  border: 1px solid #000;
+  background-color: #ff0;
+}
+
+.about h2 {
+  background-color: #0ff;
+  color: #000;
+  padding: 10px;
+  margin: 0;
+  font-size: 30px;
+}
+
+/* FORM DESIGN */
+
+form {
+  display: block;
+  background-color: #eee;
+  border: 1px solid #ccc;
+}
+
+input, textarea {
+  display: block;
+  width: 85%;
+  margin: 5px 10px 30px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+label {
+  margin-left: 10px;
+  font-size: 27px;
+}
+
+.submission {
+  width: 70%;
+  margin: 0 auto 20px;
+  font-size: 30px;
+  background-color: #0ff;
+  color: #000;
+  box-shadow: 10px 5px #555;
+}
+
+
+
+
+
+
+
+
+
+
+/* FORM DESIGN */

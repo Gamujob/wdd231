@@ -1,0 +1,64 @@
+{
+  "vehicles": [
+    {
+      "name": "Toyota Corolla",
+      "imageURL": "",
+      "type": "Sedan",
+      "price": "$20000 - $50000+"
+    },
+    {
+      "name": "Toyota Highlander",
+      "imageURL": "",
+      "type": "SUV",
+      "price": "$30000 - $60000+"
+    },
+    {
+      "name": "Ford F-150",
+      "imageURL": "",
+      "type": "Pickup Truck",
+      "price": "$30000 - $70000+"
+    },
+    {
+      "name": "Honda Odyssey",
+      "imageURL": "",
+      "type": "Van / Minivan",
+      "price": "$25000 - $55000"
+    },
+    {
+      "name": "Yamaha Motorcycle",
+      "imageURL": "",
+      "type": "Motorcycle",
+      "price": "$1500 - $20000+"
+    },
+    {
+      "name": "City Bus",
+      "imageURL": "",
+      "type": "Bus",
+      "price": "$30000 - $200000+"
+    },
+    {
+      "name": "Cargo Truck",
+      "imageURL": "",
+      "type": "Lorry / Heavy Truck",
+      "price": "$40000 - $150000+"
+    },
+    {
+      "name": "Volkswagen Golf",
+      "imageURL": "",
+      "type": "Hatchback",
+      "price": "$5000 - $35000"
+    },
+    {
+      "name": "Tesla Model 3",
+      "imageURL": "",
+      "type": "Electric Vehicle",
+      "price": "$30000 - $70000+"
+    },
+    {
+      "name": "Porsche 911",
+      "imageURL": "",
+      "type": "Sports Car",
+      "price": "$50000 - $200000+"
+    }
+  ]
+}

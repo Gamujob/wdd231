@@ -1,0 +1,15 @@
+main {
+  background-color: #ddd;
+}
+
+h1 {
+  background-color: #0ff;
+  color: #000;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+p {
+  margin: 10px;
+  text-align: left;
+}
