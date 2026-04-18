@@ -79,6 +79,7 @@ header {
 }
 
 .subHero1 p {
+  background-color: transparent;
   position: absolute;
   color: #fff;
   text-align: center;
@@ -131,7 +132,7 @@ h2, strong {
 }
 
 p {
-  font-family: Google Sans;
+  font-family: "Google Sans";
   margin: 10px;
 }
 
