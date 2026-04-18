@@ -202,8 +202,26 @@ label {
   font-size: 25px;
 }
 
+#vehicleCard div{
+  background-color: #ddd;
+  border: 1px solid #555;
+  margin: 10px;
+}
 
+#vehicleCard h3 {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+}
 
+#vehicleCard span {
+  font-weight: 1000;
+}
+
+#vehicleCard img{
+  width: 100%;
+}
 
 
 

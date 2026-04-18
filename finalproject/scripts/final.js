@@ -51,3 +51,5 @@ visitMessage.textContent = message;
 
 // save the current visit
 localStorage.setItem('lastVisit', now);
+
+
