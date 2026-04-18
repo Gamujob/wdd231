@@ -195,6 +195,12 @@ label {
   box-shadow: 10px 5px #555;
 }
 
+#localStore {
+  background-color: #0ff;
+  padding: 10px;
+  text-align: center;
+  font-size: 25px;
+}
 
 
 
